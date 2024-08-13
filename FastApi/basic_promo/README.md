@@ -15,7 +15,7 @@ The FastAPI Advanced Promo application allows users to generate promotional code
 ## Directory Structure
 
 ```
-/fastapi/advanced_promo
+/FastApi/advanced_promo
     /app.py
     /README.md
 ```
