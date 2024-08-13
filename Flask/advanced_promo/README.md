@@ -16,7 +16,7 @@ The Flask Advanced Promo application allows users to generate promotional codes 
 ## Directory Structure
 
 ```
-/flask/advanced_promo
+/Flask/advanced_promo
     /app.py
     /README.md
 ```
