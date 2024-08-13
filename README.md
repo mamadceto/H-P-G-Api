@@ -48,7 +48,7 @@ The Promo Code Generator enables you to create promotional codes for various cat
 
 1. **Clone the Repository:**
 ```
-   git clone https://github.com/mamadceto/H-P-G-Api.git
+   git clone https://github.com/mamadceto/H-P-G-Api
 ```
 2. **Navigate to the Desired Framework and Version:**
 ```
