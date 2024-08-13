@@ -64,12 +64,14 @@ The Promo Code Generator enables you to create promotional codes for various cat
 ```
    - **Flask:**
      python app.py
+
    - **FastAPI:**
      uvicorn app:app --reload
 ```
 5. **Access the API:**
 ```
    - **Flask:** http://localhost:5000/generate
+
    - **FastAPI:** http://localhost:8000/generate
 ```
 ## API Usage
