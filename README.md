@@ -1,4 +1,4 @@
-# Promo Code Generator
+# Hamster Kombat Key/Promo Generator Api
 
 Welcome to the **Promo Code Generator** repository! This project features implementations of promotional code generators using two popular Python frameworks: **Flask** and **FastAPI**. It includes both basic and advanced versions of the generator to accommodate different use cases.
 
