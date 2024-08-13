@@ -26,7 +26,7 @@ The Promo Code Generator enables you to create promotional codes for various cat
   - Includes enhanced error handling and validation.
 
 ## Directory Structure
-
+```
 /project-root
     /flask
         /basic_promo
@@ -43,30 +43,35 @@ The Promo Code Generator enables you to create promotional codes for various cat
             /app.py
             /README.md
     README.md
-
+```
 ## Getting Started
 
 1. **Clone the Repository:**
-   git clone https://github.com/your-username/promo-code-generator.git
-
+```
+   git clone https://github.com/mamadceto/H-P-G-Api.git
+```
 2. **Navigate to the Desired Framework and Version:**
+```
    cd flask/basic_promo   # or flask/advanced_promo
    # or
    cd fastapi/basic_promo  # or fastapi/advanced_promo
-
+```
 3. **Install Dependencies:**
+```
    pip install -r requirements.txt
-
+```
 4. **Run the Application:**
+```
    - **Flask:**
      python app.py
    - **FastAPI:**
      uvicorn app:app --reload
-
+```
 5. **Access the API:**
+```
    - **Flask:** http://localhost:5000/generate
    - **FastAPI:** http://localhost:8000/generate
-
+```
 ## API Usage
 
 - **Basic Promo**: Generates a fixed number of promo codes (default: 4) for each category.
