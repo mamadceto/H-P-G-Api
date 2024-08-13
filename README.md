@@ -42,7 +42,6 @@ The Promo Code Generator enables you to create promotional codes for various cat
         /advanced_promo
             /app.py
             /README.md
-    README.md
 ```
 ## Getting Started
 
