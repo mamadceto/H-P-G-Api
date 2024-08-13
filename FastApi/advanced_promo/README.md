@@ -15,7 +15,7 @@ The FastAPI Basic Promo application allows users to generate promotional codes f
 ## Directory Structure
 
 ```
-/fastapi/basic_promo
+/FastApi/basic_promo
     /app.py
     /README.md
 ```
