@@ -22,19 +22,19 @@ The Flask Basic Promo application is designed to create promotional codes for va
 
 1. **Clone the Repository:**
 ```
-   `git clone https://github.com/mamadceto/H-P-G-Api.git`
+   git clone https://github.com/mamadceto/H-P-G-Api.git
 ```
 2. **Navigate to the Project Directory:**
 ```
-   `cd flask/basic_promo`
+   cd flask/basic_promo
 ```
 3. **Install Dependencies:**
 ```
-   `pip install -r requirements.txt`
+   pip install -r requirements.txt
 ```
 4. **Run the Application:**
 ```
-   `python app.py`
+   python app.py
 ```
 5. **Access the API:**
    Open your web browser or API client and go to `http://localhost:5000/generate` to generate promo codes.
@@ -101,5 +101,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or support, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or feedback, please contact [@mmdceto](https://t.me/mmdceto).
 
