@@ -91,4 +91,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or issues, please open an issue on the repository or contact us at [your-email@example.com].
+For any inquiries or feedback, please contact [@mmdceto](https://t.me/mmdceto).
