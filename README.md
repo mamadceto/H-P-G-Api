@@ -37,14 +37,14 @@ The Promo Code Generator enables you to create promotional codes for various cat
 ## Directory Structure
 ```
 /project-root
-    /flask
+    /Flask
         /basic_promo
             /app.py
             /README.md
         /advanced_promo
             /app.py
             /README.md
-    /fastapi
+    /FastApi
         /basic_promo
             /app.py
             /README.md
@@ -60,9 +60,9 @@ The Promo Code Generator enables you to create promotional codes for various cat
 ```
 2. **Navigate to the Desired Framework and Version:**
 ```
-   cd flask/basic_promo   # or flask/advanced_promo
+   cd Flask/basic_promo   # or Flask/advanced_promo
    # or
-   cd fastapi/basic_promo  # or fastapi/advanced_promo
+   cd FastApi/basic_promo  # or FastApi/advanced_promo
 ```
 3. **Install Dependencies:**
 ```
