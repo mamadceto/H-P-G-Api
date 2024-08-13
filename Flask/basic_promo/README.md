@@ -14,7 +14,7 @@ The Flask Basic Promo application is designed to create promotional codes for va
 
 ## Directory Structure
 ```
-/flask/basic_promo
+/Flask/basic_promo
     /app.py
     /README.md
 ```
