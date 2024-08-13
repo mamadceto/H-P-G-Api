@@ -83,10 +83,10 @@ The Promo Code Generator enables you to create promotional codes for various cat
 
 ## Links
 
-- [Flask Basic Promo README](H-P-G-Api/flask/basic_promo/README.md)
-- [Flask Advanced Promo README](flask/advanced_promo/README.md)
-- [FastAPI Basic Promo README](fastapi/basic_promo/README.md)
-- [FastAPI Advanced Promo README](fastapi/advanced_promo/README.md)
+- [Flask Basic Promo README](https://github.com/mamadceto/H-P-G-Api/blob/master/Flask/basic_promo/README.md)
+- [Flask Advanced Promo README](https://github.com/mamadceto/H-P-G-Api/blob/master/Flask/advanced_promo/README.md)
+- [FastAPI Basic Promo README](https://github.com/mamadceto/H-P-G-Api/blob/master/FastApi/advanced_promo/README.md)
+- [FastAPI Advanced Promo README](https://github.com/mamadceto/H-P-G-Api/blob/master/FastApi/basic_promo/README.md)
 
 ## Contributing
 
