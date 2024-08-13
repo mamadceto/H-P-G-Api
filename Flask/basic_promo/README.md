@@ -95,10 +95,6 @@ The response will be a JSON object containing the generated promo codes for each
 
 Contributions are welcome! If you have suggestions or improvements, please submit a pull request or open an issue.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any inquiries or feedback, please contact [@mmdceto](https://t.me/mmdceto).
