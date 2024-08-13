@@ -22,7 +22,7 @@ The Flask Basic Promo application is designed to create promotional codes for va
 
 1. **Clone the Repository:**
 ```
-   git clone https://github.com/mamadceto/H-P-G-Api.git
+   git clone https://github.com/mamadceto/H-P-G-Api
 ```
 2. **Navigate to the Project Directory:**
 ```
