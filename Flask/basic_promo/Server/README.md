@@ -9,92 +9,87 @@ This is a Flask API for generating promotional codes using an external service. 
 - Python 3.9 or later
 - Access to a Linux server or cPanel with SSH access
 
-## Installation and Setup
+## Installation
 
 ### On a Linux Server
 
-1. **Clone the Repository**
+1. **Connect to Your Server**
 
-   Run:
-```
-git clone https://github.com/username/repository.git
-cd repository/Flask/basic_promo/Server
-```
-2. **Create and Activate a Virtual Environment**
+   Use SSH to connect to your server.
 
-   Run:
+2. **Install Python and Dependencies**
+
+   Make sure Python 3.9 is installed. If not, install it using your package manager. For example, on Debian-based systems:
+```   
+sudo apt update   
+sudo apt install python3.9
 ```
-python3 -m venv venv
+3. **Clone the Repository**
+
+   Clone the repository to your desired directory:
+```
+git clone https://github.com/yourusername/yourrepository.git  
+cd Flask/basic_promo/Server
+```
+4. **Set Up a Virtual Environment**
+
+   Create and activate a virtual environment:
+```
+python3.9 -m venv venv
 source venv/bin/activate
 ```
-3. **Install Dependencies**
+5. **Install Required Packages**
 
-   Run:
+   Install the necessary Python packages:
 ```
 pip install -r requirements.txt
 ```
-4. **Run the Application with Gunicorn**
+6. **Run the Application**
 
-   Run:
-
+   Use `gunicorn` to start the application:
 ```
 gunicorn --workers=3 --bind 0.0.0.0:5000 --timeout 1200 app:app
 ```
-   - `--workers=3`: Number of worker processes
-   - `--bind 0.0.0.0:5000`: Address and port
-   - `--timeout 1200`: Request timeout in seconds
+## On cPanel Hosting
 
-### On cPanel Hosting
+1. **Setup Python App**
 
-1. **Access SSH**
+   - Log in to your cPanel account.
+   - Navigate to **Setup Python App**.
+   - Select the latest Python version available.
+   - Set the **Application root** to the project directory (e.g., `Api-Promo`).
+   - Click **Create Application**.
 
-   Use SSH to connect to your cPanel account.
+2. **Upload the Application Code**
 
-2. **Clone the Repository**
+   - Open **File Manager** in cPanel.
+   - Locate the directory with the same name as the application you just created (e.g., `Api-Promo`).
+   - Enter the `public` folder inside this directory.
+   - Upload the `app.py` file into the `public` folder.
 
-   Run:
+3. **Install Dependencies**
+
+   - Open **Terminal** in cPanel.
+   - Enter the virtual environment with the command provided in the **Python App** setup page.
+   - Navigate to the `public` folder:
 ```
-git clone https://github.com/username/repository.git
-cd repository/Flask/basic_promo/Server
+cd public
 ```
-3. **Create and Activate a Virtual Environment**
-
-   Run:
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-4. **Install Dependencies**
-
-   Run:
+   - Install the required Python packages:
 ```
 pip install -r requirements.txt
 ```
-5. **Configure Python App in cPanel**
+4. **Run the Application**
 
-   - Go to "Setup Python App" in cPanel.
-   - Set Python version to 3.9 or later.
-   - Set the application root to the project directory.
-   - Set "Startup File" to `app:app`.
-   - Click "Setup".
-
-## `requirements.txt`
-
-Create this file with the following content:
+   - In the Terminal, start the application with:
 ```
-Flask==2.2.0
-requests==2.28.1
-gunicorn==23.0.0
+   gunicorn --workers=3 --bind 0.0.0.0:5000 --timeout 1200 app:app
 ```
 ## Usage
 
 Access the API endpoint to generate promotional codes:
-
-`http://your-domain:5000/generate`
-
+```
+http://your-domain:5000/generate
+```
 This endpoint will return generated codes in JSON format.
-
-## Troubleshooting
-
-If you encounter issues, ensure all dependencies are installed correctly and check the server logs for errors.
 
